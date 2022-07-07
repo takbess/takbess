@@ -23,6 +23,7 @@ python -m tools.train_net \
     MODEL.META_ARCHITECTURE "ProposalNetwork"
 ```
 
+The difference from Part 2, Step 1 in TRAIN_FULL.md is the number of gpus.
 Then, I got the following error:
 
 ```
