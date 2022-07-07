@@ -12,9 +12,8 @@ You can click the Preview link to take a look at your changes.
 
 Following the instruction, I did the command:
 
-python -m tools.train_net \
-
 ```
+python -m tools.train_net \
     --config-file configs/COCO-detection/faster_rcnn_R_50_FPN_base.yaml \
     --num-gpus 8 \
     --resume \
