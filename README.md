@@ -14,14 +14,14 @@ Following the instruction, I did the command:
 
 python -m tools.train_net \
 
-"""
+```
     --config-file configs/COCO-detection/faster_rcnn_R_50_FPN_base.yaml \
     --num-gpus 8 \
     --resume \
     --eval-only \
     DATASETS.TEST "('coco_test_all', 'coco_trainval_all',)" \
     MODEL.META_ARCHITECTURE "ProposalNetwork"
-"""
+```
 
 Then, I got the following error:
 
