@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @takbess
+- I am a beginner for this field and a
 - 👀 I’m interested in Machine Learning.
 - 🌱 I’m currently learning Computer Vision.
 - 💞️ I’m looking to collaborate on ...
@@ -10,7 +11,7 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-Following the instruction, I did the command:
+Following the instructions, I tried the command:
 
 ```
 python -m tools.train_net \
@@ -33,7 +34,7 @@ usage: train_net.py [-h] [--config-file FILE] [--config-file-lin FILE] [--resume
 train_net.py: error: unrecognized arguments: DATASETS.TEST ('coco_test_all', 'coco_trainval_all',) MODEL.META_ARCHITECTURE ProposalNetwork
 ```
 
-So, I'm doing the command:
+So, I'm modifying the command as
 
 ```
 python -m tools.train_net \
@@ -46,5 +47,5 @@ python -m tools.train_net \
     MODEL.META_ARCHITECTURE "ProposalNetwork"
 ```
 
-The difference is the addition "--opts \".
-Is this change correct?
+The difference is "--opts \".
+Is this modification correct?
